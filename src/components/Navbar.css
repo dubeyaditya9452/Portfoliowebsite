@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+}
+nav .menu{
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+nav .menu span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.4rem;
+}
+
+/* Responsive code start */
+

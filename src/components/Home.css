@@ -1,0 +1,36 @@
+.home-container {
+    height: 89vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* New example gradient */
+    color: white; 
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 600px; 
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.2rem; 
+    margin-bottom: 20px;
+  }
+  
+  .content button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff5f6d; 
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+ 
